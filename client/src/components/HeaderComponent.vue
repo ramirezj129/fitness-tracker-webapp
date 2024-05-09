@@ -1,0 +1,55 @@
+<template>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+
+            <router-link to="/" class="nav-link">
+                 Home <i class="navbar-brand fa-solid fa-house px-1"></i>      
+            </router-link> 
+          </li>
+          <li class="nav-item">
+            <!-- Replace <a> with <router-link> -->
+            <router-link to="/exercise" class="nav-link">
+              Exercise <i class="navbar-brand fa-solid fa-dumbbell px-1"></i>
+            </router-link>
+          </li>
+
+          <li class="nav-item">
+
+          <router-link to="/measurement" class="nav-link">
+           Measurements <i class="navbar-brand fa-solid fa-weight-scale px-1"></i>
+          </router-link>
+          </li>      
+          </ul>
+        <ul class="navbar-nav"> <!-- Create a new <ul> for the profile link -->
+          <li class="nav-item">
+
+        <router-link to="/login" class="nav-link">            
+          Login <i class="navbar-brand fa-solid fa-user px-1"></i>
+        </router-link>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<style scoped>
+.nav-link {
+  font-size: 18px;
+}
+.nav-item{
+  padding-right: 0px; /* Adjust padding around the icons */
+}
+nav{
+  margin: 15px;
+  background-color: #0f2537;
+  overflow-y: auto;
+  border-radius: 15px;
+}
+</style>
