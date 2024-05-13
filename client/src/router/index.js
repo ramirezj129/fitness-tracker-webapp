@@ -3,6 +3,7 @@ import HomeView from '@/views/HomeView.vue';
 import ExerciseView from '@/views/ExerciseView.vue';
 import LoginView from '@/views/LoginView.vue';
 import MeasurementView from '@/views/MeasurementView.vue';
+import RegisterView from '@/views/RegisterView.vue'
 
 
 const router = createRouter({
@@ -19,14 +20,19 @@ const router = createRouter({
       component: ExerciseView
     },
     {
-      path: '/measurement',
-      name: 'measurement',
+      path: '/measurements',
+      name: 'measurements',
       component: MeasurementView
     },
     {
       path: '/login',
       name: 'login',
       component: LoginView
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: RegisterView
     },
   
   

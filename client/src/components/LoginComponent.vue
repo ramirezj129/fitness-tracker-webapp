@@ -16,7 +16,7 @@
       <div class="row justify-content-center">
         <div class="col-md-6 d-flex justify-content-between">
           <button type="submit" class="btn btn-primary">Login</button>
-          <button type="submit" class="btn btn-primary">Register</button>
+          <routerLink type="submit" to="/register" class="btn btn-primary">Register</routerLink>
         </div>
       </div>
     </form>

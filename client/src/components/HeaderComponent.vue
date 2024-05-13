@@ -7,31 +7,26 @@
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-
-            <router-link to="/" class="nav-link">
-                 Home <i class="navbar-brand fa-solid fa-house px-1"></i>      
+            <router-link to="/" class="nav-link" @click="collapseNavbar">
+              Home <i class="navbar-brand fa-solid fa-house px-1"></i>      
             </router-link> 
           </li>
           <li class="nav-item">
-            <!-- Replace <a> with <router-link> -->
-            <router-link to="/exercise" class="nav-link">
+            <router-link to="/exercise" class="nav-link" @click="collapseNavbar">
               Exercise <i class="navbar-brand fa-solid fa-dumbbell px-1"></i>
             </router-link>
           </li>
-
           <li class="nav-item">
-
-          <router-link to="/measurement" class="nav-link">
-           Measurements <i class="navbar-brand fa-solid fa-weight-scale px-1"></i>
-          </router-link>
+            <router-link to="/measurements" class="nav-link" @click="collapseNavbar">
+              Measurements <i class="navbar-brand fa-solid fa-weight-scale px-1"></i>
+            </router-link>
           </li>      
-          </ul>
-        <ul class="navbar-nav"> <!-- Create a new <ul> for the profile link -->
+        </ul>
+        <ul class="navbar-nav">
           <li class="nav-item">
-
-        <router-link to="/login" class="nav-link">            
-          Login <i class="navbar-brand fa-solid fa-user px-1"></i>
-        </router-link>
+            <router-link to="/login" class="nav-link" @click="collapseNavbar">
+              Login <i class="navbar-brand fa-solid fa-user px-1"></i>
+            </router-link>
           </li> 
         </ul>
       </div>
@@ -39,14 +34,28 @@
   </nav>
 </template>
 
+<script>
+export default {
+  methods: {
+    collapseNavbar() {
+      // Collapse the navbar when a route is selected
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navbarToggler.classList.add('collapsed');
+      navbarCollapse.classList.remove('show');
+    }
+  }
+}
+</script>
+
 <style scoped>
 .nav-link {
   font-size: 18px;
 }
-.nav-item{
+.nav-item {
   padding-right: 0px; /* Adjust padding around the icons */
 }
-nav{
+nav {
   margin: 15px;
   background-color: #0f2537;
   overflow-y: auto;
