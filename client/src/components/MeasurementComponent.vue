@@ -2,7 +2,7 @@
     <div class="container text-white ">
       <div class="row">
         <div class="col-md-6">
-          <img src="/public/icons/measurement.jpg" class="img-fluid" alt="Description of the image">
+          <img src="/icons/measurement.jpg" class="img-fluid" alt="Description of the image">
         </div>
         <div class="col-md-6">
           <form @submit.prevent="submitForm">
