@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\controllers\\measurementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:controllers\\measurementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\controllers\\usercontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:controllers\\usercontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\entities\\measurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:entities\\measurement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\dtos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:dtos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\dtos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:dtos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\dtos\\measurementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:dtos\\measurementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\entities\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:entities\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\dtos\\exercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:dtos\\exercisedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramir\\AppData\\Local\\Temp\\Rar$DRa22592.39898\\fitness-tracker-serverside\\Dtos\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|c:\\users\\ramir\\source\\repos\\fitness-tracker-server\\migrations\\20240521024811_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8924CBC-7A6C-49E7-93ED-5AC868F9BBA4}|Fitness-tracker-server.csproj|solutionrelative:migrations\\20240521024811_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\DbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\DbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:39:11.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserContoller.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Controllers\\UserContoller.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserContoller.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Controllers\\UserContoller.cs",
+              "RelativeToolTip": "Controllers\\UserContoller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:43:07.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeasurementController.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Controllers\\MeasurementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeasurementController.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Controllers\\MeasurementController.cs",
+              "RelativeToolTip": "Controllers\\MeasurementController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:26:48.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Measurement.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Entities\\Measurement.cs",
+              "RelativeDocumentMoniker": "Entities\\Measurement.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Entities\\Measurement.cs",
+              "RelativeToolTip": "Entities\\Measurement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:39:34.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\Login.cs",
+              "RelativeDocumentMoniker": "Dtos\\Login.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\Login.cs",
+              "RelativeToolTip": "Dtos\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:52:57.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\Register.cs",
+              "RelativeDocumentMoniker": "Dtos\\Register.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\Register.cs",
+              "RelativeToolTip": "Dtos\\Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:58:39.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Helper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "Helper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T04:03:23.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:39:28.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:41:35.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "Services\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T02:57:33.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:37:38.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeasurementDto.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\MeasurementDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MeasurementDto.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\MeasurementDto.cs",
+              "RelativeToolTip": "Dtos\\MeasurementDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:52:29.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T02:34:20.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Exercise.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Entities\\Exercise.cs",
+              "RelativeDocumentMoniker": "Entities\\Exercise.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Entities\\Exercise.cs",
+              "RelativeToolTip": "Entities\\Exercise.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:43:38.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:53:07.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExerciseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\ExerciseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ExerciseDto.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Dtos\\ExerciseDto.cs",
+              "RelativeToolTip": "Dtos\\ExerciseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:52:13.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExerciseController.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Controllers\\ExerciseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExerciseController.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Controllers\\ExerciseController.cs",
+              "RelativeToolTip": "Controllers\\ExerciseController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwC0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:46:48.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240521024811_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Migrations\\20240521024811_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240521024811_Initial.cs",
+              "ToolTip": "C:\\Users\\ramir\\source\\repos\\Fitness-tracker-server\\Migrations\\20240521024811_Initial.cs",
+              "RelativeToolTip": "Migrations\\20240521024811_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:48:12.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\AppData\\Local\\Temp\\Rar$DRa22592.39898\\fitness-tracker-serverside\\Dtos\\Login.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\Rar$DRa22592.39898\\fitness-tracker-serverside\\Dtos\\Login.cs",
+              "ToolTip": "C:\\Users\\ramir\\AppData\\Local\\Temp\\Rar$DRa22592.39898\\fitness-tracker-serverside\\Dtos\\Login.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\Rar$DRa22592.39898\\fitness-tracker-serverside\\Dtos\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T02:38:09.598Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
