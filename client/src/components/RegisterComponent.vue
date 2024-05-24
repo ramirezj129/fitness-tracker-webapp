@@ -45,7 +45,7 @@ export default {
         console.log(formData)
         console.log(jsonData)
 
-        const response = await axios.post('http://localhost:5000/api/User/register', jsonData, {
+        const response = await axios.post('http://localhost:5277/api/register', jsonData, {
           headers: {
             'Content-Type': 'application/json'
           }

@@ -11,23 +11,28 @@
               Home <i class="navbar-brand fa-solid fa-house px-1"></i>      
             </router-link> 
           </li>
-          <li class="nav-item">
+          <li class="nav-item" v-if="isAuthenticated">
             <router-link to="/exercise" class="nav-link" @click="collapseNavbar">
               Exercise <i class="navbar-brand fa-solid fa-dumbbell px-1"></i>
             </router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" v-if="isAuthenticated">
             <router-link to="/measurements" class="nav-link" @click="collapseNavbar">
               Measurements <i class="navbar-brand fa-solid fa-weight-scale px-1"></i>
             </router-link>
           </li>      
         </ul>
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li v-if="!isAuthenticated" class="nav-item">
             <router-link to="/login" class="nav-link" @click="collapseNavbar">
               Login <i class="navbar-brand fa-solid fa-user px-1"></i>
             </router-link>
-          </li> 
+          </li>
+          <li v-if="isAuthenticated" class="nav-item">
+            <button class="nav-link" @click="logout">
+              Logout <i class="navbar-brand fa-solid fa-sign-out-alt px-1"></i>
+            </button>
+          </li>
         </ul>
       </div>
     </div>
@@ -35,14 +40,28 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex';
+
 export default {
+  computed: {
+    ...mapState(['isAuthenticated'])
+  },
   methods: {
+    ...mapMutations(['setAuthenticated']),
     collapseNavbar() {
       // Collapse the navbar when a route is selected
       const navbarToggler = document.querySelector('.navbar-toggler');
       const navbarCollapse = document.querySelector('.navbar-collapse');
       navbarToggler.classList.add('collapsed');
       navbarCollapse.classList.remove('show');
+    },
+    logout() {
+      // Perform logout actions here
+      // For example, clear token from local storage and set isAuthenticated to false
+      localStorage.removeItem('token');
+      this.setAuthenticated(false);
+      // Optionally, navigate to the home page or another appropriate route
+      this.$router.push('/');
     }
   }
 }
