@@ -3,8 +3,8 @@
     <form class="register-form was-validated" id="register-form" @submit.prevent="submitForm">
       <div class="row mb-3 justify-content-center">
         <div class="col-md-6">
-          <label for="username" class="form-label">User</label>
-          <input type="text" class="form-control" id="username" placeholder="Enter User" required>
+          <label for="username" class="form-label">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
           <div class="invalid-feedback">Please provide a username.</div> <!-- Display validation feedback -->
         </div>
       </div>
@@ -45,7 +45,7 @@ export default {
         console.log(formData)
         console.log(jsonData)
 
-        const response = await axios.post('http://localhost:5277/api/register', jsonData, {
+        const response = await axios.post('http://localhost:5277/User/register', jsonData, {
           headers: {
             'Content-Type': 'application/json'
           }
