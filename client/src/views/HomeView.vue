@@ -2,7 +2,7 @@
 
 
       <!-- Main content specific to the home page -->
-        <h1 class="workoutClass text-center">Workout Home Page</h1>
+        <h1 class="workoutClass text-center">Fitness App Home Page</h1>
         <body class="container">
           
         <div class="bodyClass">
