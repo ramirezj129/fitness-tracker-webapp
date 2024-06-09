@@ -40,7 +40,56 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+
+
+
       </div>
+
+      <div class="mt-5">
+        <h5>Your Measurements Log:</h5>
+      </div>
+
+      <div v-if="measurements.length">
+        <table class="table table-dark table-striped table-bordered mt-3">
+          <thead>
+            <tr>
+              <th>Measurement Type</th>
+              <th>Measurement</th>
+              <th>Date Recorded</th>
+              <th>Actions</th>
+
+            </tr>
+           
+
+          </thead>
+
+
+          <tbody>
+
+            <tr v-for="measurement in measurements" :key="measurement.id">
+              <template v-if="isEditing === measurement.id">
+              <td><input v-model="measurement.name" class="form-control"></td>
+              <td><input v-model="measurement.sets" type="number" class="form-control"></td>
+              <td><input v-model="measurement.reps" type="number" class="form-control"></td>
+              <td class="text-center">
+                <button class="btn btn-success mx-2 p-1" @click="saveEdit(measurement)">Save</button>
+                <button class="btn btn-secondary p-1" @click="cancelEdit">Cancel</button>
+              </td>
+            </template>
+            <template v-else>
+              <td>{{ measurement.type }}</td>
+              <td>{{ measurement.value }}</td>
+              <td>{{ measurement.date }}</td>
+              <td class="text-center">
+                <button class="btn btn-primary mx-2 p-1" @click="editMeasurement(measurement.id)">Edit</button>
+                <button class="btn btn-danger p-1" @click="deleteMeasurement(measurement.id)">Delete</button>
+              </td>
+            </template>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+
     </div>
   </div>
 </template>
