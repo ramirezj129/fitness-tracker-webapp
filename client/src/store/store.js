@@ -1,3 +1,4 @@
+// store.js
 import { createStore } from 'vuex';
 
 const store = createStore({
@@ -23,6 +24,14 @@ const store = createStore({
     logout({ commit }) {
       localStorage.removeItem('token');
       commit('clearToken');
+    }
+  },
+  getters: {
+    isAuthenticated(state) {
+      return state.isAuthenticated;
+    },
+    token(state) {
+      return state.token;
     }
   }
 });

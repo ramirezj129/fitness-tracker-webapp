@@ -8,9 +8,11 @@
         <div class="bodyClass">
 
         <div class="row mt-5">
-        <div class="col-md-12 d-flex justify-content-center">
-          <img src="/icons/home-img.jpg" class="img-fluid" style="border-radius: 10px;" alt="Description of the image">
-          <div class="col-md-6">
+        <div class="col-6 d-flex justify-content-evenly">
+          <img src="/icons/home-img.jpg" class="img"  alt="Description of the image">
+        </div>
+
+          <div class="col-6">
             <div class="home-desc">
               <p>This is my workout web app using .net backend with mssql database in order to access the features in this web app login/register in order to see more features</p>
                 <p>Features Include: </p>
@@ -21,7 +23,6 @@
 
                 </ul>
                
-            </div>
           </div>
         </div>
 
@@ -51,33 +52,33 @@ li{
 }
 
 .bodyClass {
-background-color: #0f2537; /* Background color for the main content area */
-padding: 15px; /* Add padding as needed */
+background-color: #0f2537; 
+padding: 15px;
 min-height: 84vh;
 
 }
 .workoutClass {
   color: white;
-  overflow-y: hidden /* Text color for the welcome heading */
+  overflow-y: hidden
 }
 
-.img-fluid{
+.img{
   object-fit: contain;
-  width: 40%;
+  width: 60%;
   margin-right: 50px;  
+  border-radius: 10px;
 }
 .home-desc{
   font-size: large;
 }
 
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
-  .img-fluid {
-    width: 250%; /* Adjust the width as needed */
-    margin-right: 25px; /* Adjust the margin as needed */
+  .img {
+    width: 30%; 
+    margin-right: 25px;
   }
 }
- 
+
   </style>
   
