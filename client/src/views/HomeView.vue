@@ -13,7 +13,7 @@
           <div class="col-md-6">
             <div class="home-desc">
               <p>This is my workout web app using .net backend with mssql database in order to access the features in this web app login/register in order to see more features</p>
-                <p>Feature Include: </p>
+                <p>Features Include: </p>
                 <ul>
                   <li>creating exercises</li>
                   <li>measurement</li>

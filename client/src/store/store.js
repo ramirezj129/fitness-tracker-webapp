@@ -1,26 +1,28 @@
-// store.js
 import { createStore } from 'vuex';
 
 const store = createStore({
   state: {
+    token: localStorage.getItem('token') || null,
     isAuthenticated: !!localStorage.getItem('token')
   },
   mutations: {
-    setAuthenticated(state, value) {
-      state.isAuthenticated = value;
-      if (!value) {
-        localStorage.removeItem('token');
-      }
+    setToken(state, token) {
+      state.token = token;
+      state.isAuthenticated = !!token;
+    },
+    clearToken(state) {
+      state.token = null;
+      state.isAuthenticated = false;
     }
   },
   actions: {
     login({ commit }, token) {
       localStorage.setItem('token', token);
-      commit('setAuthenticated', true);
+      commit('setToken', token);
     },
     logout({ commit }) {
       localStorage.removeItem('token');
-      commit('setAuthenticated', false);
+      commit('clearToken');
     }
   }
 });
