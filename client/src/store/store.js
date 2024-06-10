@@ -1,4 +1,3 @@
-// store.js
 import { createStore } from 'vuex';
 
 const store = createStore({
@@ -7,31 +6,24 @@ const store = createStore({
     isAuthenticated: !!localStorage.getItem('token')
   },
   mutations: {
-    setToken(state, token) {
-      state.token = token;
-      state.isAuthenticated = !!token;
-    },
-    clearToken(state) {
-      state.token = null;
-      state.isAuthenticated = false;
+    setAuthenticated(state, isAuthenticated) {
+      state.isAuthenticated = isAuthenticated;
+      state.token = isAuthenticated ? localStorage.getItem('token') : null;
     }
   },
   actions: {
     login({ commit }, token) {
       localStorage.setItem('token', token);
-      commit('setToken', token);
+      commit('setAuthenticated', true);
     },
     logout({ commit }) {
       localStorage.removeItem('token');
-      commit('clearToken');
+      commit('setAuthenticated', false);
     }
   },
   getters: {
     isAuthenticated(state) {
       return state.isAuthenticated;
-    },
-    token(state) {
-      return state.token;
     }
   }
 });

@@ -1,32 +1,32 @@
-<script>
- import HeaderComponent from './components/HeaderComponent.vue'; // Import the Header component
-  
-  export default {
-    components: {
-      HeaderComponent // Register the Header component
-    }
-  }
-
-
-</script>
-
 <template>
   <div class="app">
-    
-
-      <HeaderComponent /> 
-
-    
-      
-   
+    <HeaderComponent /> 
     <router-view />
-
- 
   </div>
 </template>
 
-<style>
+<script>
+import HeaderComponent from './components/HeaderComponent.vue'; // Import the Header component
+import { mapGetters } from 'vuex';
 
+export default {
+  components: {
+    HeaderComponent // Register the Header component
+  },
+  computed: {
+    ...mapGetters(['isAuthenticated'])
+  },
+  watch: {
+    isAuthenticated(newVal) {
+      if (!newVal) {
+        this.$router.push('/login');
+      }
+    }
+  }
+}
+</script>
+
+<style>
 html, body {
   margin: 0;
   padding: 0;
@@ -34,14 +34,10 @@ html, body {
   background-color: #0f2537; 
 }
 
-
 .app {
   overflow-y: auto; 
   overflow-x: hidden; 
   margin: 0;
   background-color: #0f2537;
-  
-
 }
-
 </style>

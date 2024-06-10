@@ -40,28 +40,21 @@
 </template>
 
 <script>
-import { mapState, mapMutations } from 'vuex';
+import { mapState, mapActions } from 'vuex';
 
 export default {
   computed: {
     ...mapState(['isAuthenticated'])
   },
   methods: {
-    ...mapMutations(['setAuthenticated']),
+    ...mapActions(['logout']),
     collapseNavbar() {
-      // Collapse the navbar when a route is selected
       const navbarToggler = document.querySelector('.navbar-toggler');
       const navbarCollapse = document.querySelector('.navbar-collapse');
-      navbarToggler.classList.add('collapsed');
-      navbarCollapse.classList.remove('show');
-    },
-    logout() {
-      // Perform logout actions here
-      // For example, clear token from local storage and set isAuthenticated to false
-      localStorage.removeItem('token');
-      this.setAuthenticated(false);
-      // Optionally, navigate to the home page or another appropriate route
-      this.$router.push('/');
+      if (navbarToggler && navbarCollapse) {
+        navbarToggler.classList.add('collapsed');
+        navbarCollapse.classList.remove('show');
+      }
     }
   }
 }
