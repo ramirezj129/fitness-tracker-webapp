@@ -49,7 +49,7 @@ export default {
     };
   },
   methods: {
-    ...mapMutations(['setAuthenticated']),
+    ...mapMutations(['setAuthenticated', 'showAlert']),
     async login() {
       try {
         const response = await axios.post('http://localhost:5277/User/login/', {
@@ -59,11 +59,19 @@ export default {
         const token = response.data;
         localStorage.setItem('token', token);
         this.setAuthenticated(true);
+        this.showAlert();
+
         this.$router.push('/');
       } catch (error) {
         console.error('Error during login:', error);
       }
-    }
+    },
+
+
+
+
+
+
   }
 };
 </script>

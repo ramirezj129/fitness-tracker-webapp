@@ -26,20 +26,41 @@
           </div>
         </div>
 
+
           </div>
+          <div  v-if="showAlert" class="alert alert-success position-absolute bottom-0 end-0 mb-5 me-3" style="display: block;" role="alert">
+          You Have Successfully Logged In
+        </div>
 
         </div>
+
+    
+
         </body>
       
     
   </template>
   
-<script>
 
-
-
-</script>
-
+  <script>
+  import { mapState, mapMutations } from 'vuex';
+  
+  export default {
+    computed: {
+      ...mapState(['showAlert']),
+    },
+    methods: {
+      ...mapMutations(['hideAlert']),
+    },
+    mounted() {
+      if (this.showAlert) {
+        setTimeout(() => {
+          this.hideAlert();
+        }, 3000);
+      }
+    }
+  };
+  </script>
 
 
 <style>
